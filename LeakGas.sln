@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Api", "0 - Api", "{0D74FA2D-7BDC-4D6F-B4A9-A85BB8E9007A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Business", "1 - Business", "{A06D25DE-23F9-4005-95B8-F1B68F35BCA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Data", "2 - Data", "{FC144157-9C86-4F0F-B138-B4ABA416262B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakGas.Api", "src\LeakGas.Api\LeakGas.Api.csproj", "{CC01B180-30D4-4492-A3A5-865F8F7ED17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakGas.Data", "src\LeakGas.Data\LeakGas.Data.csproj", "{26ABE4B0-0683-41D2-85EA-57EDEF14DDC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakGas.Business", "src\LeakGas.Business\LeakGas.Business.csproj", "{E197AB4A-73C1-4DF1-B634-AA27AE75557F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC01B180-30D4-4492-A3A5-865F8F7ED17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC01B180-30D4-4492-A3A5-865F8F7ED17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC01B180-30D4-4492-A3A5-865F8F7ED17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC01B180-30D4-4492-A3A5-865F8F7ED17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26ABE4B0-0683-41D2-85EA-57EDEF14DDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26ABE4B0-0683-41D2-85EA-57EDEF14DDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26ABE4B0-0683-41D2-85EA-57EDEF14DDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26ABE4B0-0683-41D2-85EA-57EDEF14DDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E197AB4A-73C1-4DF1-B634-AA27AE75557F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E197AB4A-73C1-4DF1-B634-AA27AE75557F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E197AB4A-73C1-4DF1-B634-AA27AE75557F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E197AB4A-73C1-4DF1-B634-AA27AE75557F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC01B180-30D4-4492-A3A5-865F8F7ED17A} = {0D74FA2D-7BDC-4D6F-B4A9-A85BB8E9007A}
+		{26ABE4B0-0683-41D2-85EA-57EDEF14DDC1} = {FC144157-9C86-4F0F-B138-B4ABA416262B}
+		{E197AB4A-73C1-4DF1-B634-AA27AE75557F} = {A06D25DE-23F9-4005-95B8-F1B68F35BCA5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D740E73C-2F4F-4BFE-9D48-7F50F0906F1D}
+	EndGlobalSection
+EndGlobal
