@@ -1,2 +1,2 @@
 # api-leak-gas
-API para challenge
+API para challenge do projeto Leak Gas
